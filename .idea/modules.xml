@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/curso_odoo_19.iml" filepath="$PROJECT_DIR$/.idea/curso_odoo_19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../enterprise/enterprise-19.0/.idea/enterprise-19.0.iml" filepath="$PROJECT_DIR$/../../enterprise/enterprise-19.0/.idea/enterprise-19.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../core/odoo-19.0/.idea/odoo-19.0.iml" filepath="$PROJECT_DIR$/../../core/odoo-19.0/.idea/odoo-19.0.iml" />
+    </modules>
+  </component>
+</project>

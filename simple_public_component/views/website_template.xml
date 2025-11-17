@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="my_template_simple_component" name="Public components">
+        <t t-call="web.frontend_layout">
+            <t t-set="component_props" t-value="{'partnerName': partner_name}"/>
+            <owl-component name="simple_public_component.PartnerPublicComponent"
+                           t-att-props="json.dumps(component_props)"/>
+        </t>
+    </template>
+</odoo>

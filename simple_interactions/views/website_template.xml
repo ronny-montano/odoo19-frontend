@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="my_demo_template_interactions" name="Interactions">
+        <t t-call="web.frontend_layout">
+            <div class="o_demo_container container-fluid py-4 data-result-models">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <div class="card shadow-sm rounded-3">
+                            <div class="card-body p-4">
+                                <h3 class="mb-3">Interacciones Odoo — Demo</h3>
+                                <div class="mb-3">
+                                    <label for="odooModel" class="form-label">Selecciona un modelo</label>
+                                    <select id="odooModel" name="odooModel" class="form-select"
+                                            aria-label="Selecciona modelo"/>
+                                </div>
+                                <div id="resultBox" class="alert alert-info mt-4"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>
